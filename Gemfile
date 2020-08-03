@@ -55,3 +55,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 #authentication
 gem 'devise'
+
+#form style
+gem 'bootstrap_form'
