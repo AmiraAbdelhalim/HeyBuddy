@@ -1,7 +1,7 @@
 FactoryBot.define do
   factory :post do
-    title 'title' * 10
-    content 'content' * 10
+    sequence(:title) { 'a' * 20 }
+    sequence(:content) { 'a' * 20 }
     user
     category
   end
