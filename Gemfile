@@ -66,3 +66,6 @@ gem 'devise'
 
 #form style
 gem 'bootstrap_form'
+
+#generate dummy text
+gem 'faker'
